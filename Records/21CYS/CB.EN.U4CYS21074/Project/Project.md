@@ -8,34 +8,38 @@
 <p text-align: justify;>The "Online Voting System" is a Java-based application that aims to provide an efficient and secure platform for conducting online voting for various elections. The system allows voters to cast their votes for their favorite candidates through a user-friendly graphical interface. It ensures the integrity of the voting process, allows administrators to manage candidates, and generates a comprehensive voting summary at the end of the election.</p>
 
 ### Code
-...
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
-public class VotingAppUI extends JFrame implements ActionListener {
-    private JLabel titleLabel;
-    private JButton addCandidateButton;
-    private JButton showVoteCountButton;
-    private JPanel candidatePanel;
-    private List<JButton> candidateButtons;
-    private List<String> candidateNames;
-    private int[] candidateVotes;
-    private int totalCandidates;
-    private int totalVoters;
-    private int currentCandidateCount;
-    private int votesCast;
-    private final String adminUsername = "admin";
-    private final String adminPassword = "admin";
-    private boolean isAdminLoggedIn = false;
-    private HashMap<String, Boolean> votersMap; // Voter ID -> Voted status
+#### VotingAppUI.java
+
+	package com.amrita.jpl.cys21074.Project;
+
+	import javax.swing.*;
+	import java.awt.*;
+	import java.awt.event.ActionEvent;
+	import java.awt.event.ActionListener;
+	import java.io.*;
+	import java.nio.file.Files;
+	import java.nio.file.Paths;
+	import java.util.ArrayList;
+	import java.util.HashMap;
+	import java.util.List;
+
+	public class VotingAppUI extends JFrame implements ActionListener {
+	    private JLabel titleLabel;
+	    private JButton addCandidateButton;
+	    private JButton showVoteCountButton;
+	    private JPanel candidatePanel;
+	    private List<JButton> candidateButtons;
+	    private List<String> candidateNames;
+	    private int[] candidateVotes;
+	    private int totalCandidates;
+	    private int totalVoters;
+	    private int currentCandidateCount;
+	    private int votesCast;
+	    private final String adminUsername = "admin";
+	    private final String adminPassword = "admin";
+	    private boolean isAdminLoggedIn = false;
+	    private HashMap<String, Boolean> votersMap; // Voter ID -> Voted status
 
     public VotingAppUI() {
         showLoginDialog();
@@ -377,4 +381,3 @@ public class VotingAppUI extends JFrame implements ActionListener {
         });
     }
 }
-...
