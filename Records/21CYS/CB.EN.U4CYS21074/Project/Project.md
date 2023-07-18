@@ -8,7 +8,7 @@
 <p text-align: justify;>The "Online Voting System" is a Java-based application that aims to provide an efficient and secure platform for conducting online voting for various elections. The system allows voters to cast their votes for their favorite candidates through a user-friendly graphical interface. It ensures the integrity of the voting process, allows administrators to manage candidates, and generates a comprehensive voting summary at the end of the election.</p>
 
 ### Code
-<CODE>
+...
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -377,4 +377,4 @@ public class VotingAppUI extends JFrame implements ActionListener {
         });
     }
 }
-</Code>
+...
