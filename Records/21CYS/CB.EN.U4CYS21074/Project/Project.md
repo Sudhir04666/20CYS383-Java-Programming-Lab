@@ -385,3 +385,28 @@
 ### Demo
 
 #### Screenshots
+
+<center><img src = "assets/1.png"></center>
+<center><img src = "assets/2.png"></center>
+<center><img src = "assets/3.png"></center>
+<center><img src = "assets/4.png"></center>
+<center><img src = "assets/5.png"></center>
+<center><img src = "assets/6.png"></center>
+<center><img src = "assets/7.png"></center>
+<center><img src = "assets/8.png"></center>
+<center><img src = "assets/9.png"></center>
+<center><img src = "assets/10.png"></center>
+<center><img src = "assets/11.png"></center>
+<center><img src = "assets/12.png"></center>
+<center><img src = "assets/13.png"></center>
+<center><img src = "assets/14.png"></center>
+<center><img src = "assets/15.png"></center>
+<center><img src = "assets/15.5.png"></center>
+<center><img src = "assets/16.png"></center>
+<center><img src = "assets/17.png"></center>
+<center><img src = "assets/18.png"></center>
+<center><img src = "assets/19.png"></center>
+
+#### Video
+
+<img src = "assets/2023-07-18_18h42_33.gif">
