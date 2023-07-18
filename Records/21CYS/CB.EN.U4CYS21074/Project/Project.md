@@ -380,4 +380,8 @@
             votingApp.setVisible(true);
         });
     }
-}
+    }
+    
+### Demo
+
+#### Screenshots
